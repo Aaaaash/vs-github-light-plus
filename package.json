@@ -1,0 +1,26 @@
+{
+    "name": "vs-github-light-plus",
+    "displayName": "Visual Studio & Github Light Plus Theme",
+    "description": "A better light theme",
+    "version": "0.0.1",
+    "publisher": "aaaaash",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/Aaaaash/vs-github-light-plus"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visual Studio & Github Light Plus",
+                "uiTheme": "vs",
+                "path": "./themes/vs-github-light-plus.json"
+            }
+        ]
+    }
+}
